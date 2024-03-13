@@ -23,6 +23,17 @@ The problem involves using the Value Iteration algorithm to find the best strate
 - The code prints the optimal policy, its state-value function, the success rate of reaching the goal, and the mean undiscounted return of the optimal policy.
 
 ## VALUE ITERATION FUNCTION:
+```
+Developed By: Sai Eswar Kandukuri
+Reg.No: 212221240020
+```
+```python3
+desc=['FFSH','FFFH','GFHF','HFFH']
+env = gym.make('FrozenLake-v1',desc=desc)
+init_state = env.reset()
+goal_state = 8
+P = env.env.P
+```
 ```python3
 def value_iteration(P, gamma=1.0, theta=1e-10):
     V = np.zeros(len(P), dtype=np.float64)
@@ -40,11 +51,11 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 ```
 
 ## OUTPUT:
-![1](https://github.com/saieswar1607/rl-value-iteration/assets/93427011/a8238c5f-85dc-42b3-b450-8227e6ed763f)
+<img width="443" alt="1" src="https://github.com/saieswar1607/rl-value-iteration/assets/93427011/775d8589-0378-4be3-954c-a6f81ff65a68">
 
-![2](https://github.com/saieswar1607/rl-value-iteration/assets/93427011/a5f300ad-cc9a-4c49-806d-99ac413e9633)
+<img width="607" alt="2" src="https://github.com/saieswar1607/rl-value-iteration/assets/93427011/a44f6ff1-f20c-449e-9e50-266f95547e26">
 
-![3](https://github.com/saieswar1607/rl-value-iteration/assets/93427011/0d768f5f-43a6-4d4d-bd8f-06d1585dd286)
+<img width="430" alt="3" src="https://github.com/saieswar1607/rl-value-iteration/assets/93427011/af34f343-fe04-42ac-baba-846afa7f4ead">
 
 ## RESULT:
 Thus, an optimal policy for an agent navigating a grid-world with slippery tiles, aiming to reach a goal state while maximizing expected rewards using value iteration algorithm is successfully implemented.
