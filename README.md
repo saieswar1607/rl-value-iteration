@@ -52,9 +52,9 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 
 ## OUTPUT:
 <img width="443" alt="1" src="https://github.com/saieswar1607/rl-value-iteration/assets/93427011/775d8589-0378-4be3-954c-a6f81ff65a68">
-
+<br>
 <img width="607" alt="2" src="https://github.com/saieswar1607/rl-value-iteration/assets/93427011/a44f6ff1-f20c-449e-9e50-266f95547e26">
-
+<br>
 <img width="430" alt="3" src="https://github.com/saieswar1607/rl-value-iteration/assets/93427011/af34f343-fe04-42ac-baba-846afa7f4ead">
 
 ## RESULT:
